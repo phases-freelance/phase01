@@ -20,7 +20,7 @@ public class Content {
 	@GeneratedValue
 	private Long id;
 
-	private String describtion;
+	private String description;
 
 	/**
 	 * @return the id
@@ -37,17 +37,17 @@ public class Content {
 	}
 
 	/**
-	 * @return the describtion
+	 * @return the description
 	 */
-	public String getDescribtion() {
-		return describtion;
+	public String getDescription() {
+		return description;
 	}
 
 	/**
-	 * @param describtion the describtion to set
+	 * @param description the description to set
 	 */
-	public void setDescribtion(String describtion) {
-		this.describtion = describtion;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
 }
